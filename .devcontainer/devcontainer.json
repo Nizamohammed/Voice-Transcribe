@@ -1,7 +1,7 @@
 {
   "name": "voiceTool",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg && python -m pip install -U pip && python -m pip install -e .",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg && sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/* && python -m pip install -U pip && PIP_NO_CACHE_DIR=1 python -m pip install -e . && python -m pip cache purge",
   "customizations": {
     "vscode": {
       "extensions": ["ms-python.python", "ms-python.vscode-pylance"]
