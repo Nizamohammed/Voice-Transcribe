@@ -14,6 +14,18 @@ This is a student-friendly CLI tool using **OpenAI Whisper** that helps you tran
 > 🧠 Future goal: evolve this into a full student notes workflow (better structure, timing, performance, features).
 
 ---
+## 📟 Try it in your browser (No installation required)
+1. Click the **Open in GitHub Codespaces** badge above
+2. Wait for the environment to finish setting up
+3. In the terminal, run:
+
+```bash
+transcribe --help
+```
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Nizamohammed/Voice-Transcribe)
+
+---
 
 ## ✅ What this tool does (Currently)
 
