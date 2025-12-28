@@ -1,6 +1,6 @@
 <img width="1056" height="520" alt="Gemini_Generated_Image_ev2kv9ev2kv9ev2k" src="https://github.com/user-attachments/assets/58bfb2c5-76d0-4b1f-9116-355d3e8060f8" />
 
-# 🎙️ voice-transcribe
+# 🎙️ Scribepad
 
 Turn long audio into text from your terminal — fast setup, simple commands, no UI needed.
 
@@ -20,16 +20,16 @@ This is a student-friendly CLI tool using **OpenAI Whisper** that helps you tran
 3. In the terminal, run:
 
 ```bash
-transcribe --help
+scribepad --help
 ```
 ## 🧪 Demo audio
 
 ### Quick demo (included)
 ```bash
-transcribe samples/demo_short_28s.m4a
+scribepad samples/demo_short_28s.m4a
 ```
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Nizamohammed/Voice-Transcribe)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Nizamohammed/Scribepad)
 
 ---
 
@@ -75,11 +75,11 @@ Restart your terminal (or open a new one)
 
 ### Install this tool from GitHub
 ```bash
-pipx install git+https://github.com/Nizamohammed/Voice-Transcribe.git
+pipx install https://github.com/Nizamohammed/Scribepad.git
 ```
 ✅ After installing, you should have a global command:
 ```bash
-transcribe --help
+scribepad --help
 ```
 
 ---
@@ -87,19 +87,19 @@ transcribe --help
 ## 🎛️ Usage
 ### Basic
 ```bash
-transcribe lecture.m4a
+scribepad lecture.m4a
 ```
 this will create:
 lecture_transcription.txt in the current directory
 
 ### Choose output file
 ```bash
-transcribe lecture.m4a notes.txt
+scribepad lecture.m4a notes.txt
 ```
 
 ### Choose model (speed vs accuracy)
 ```bash
-transcribe lecture.m4a notes.txt turbo
+scribepad lecture.m4a notes.txt turbo
 ```
 
 ---
@@ -114,9 +114,9 @@ transcribe lecture.m4a notes.txt turbo
 
 If you're unsure, start with:
 ```bash
-transcribe lecture.m4a notes.txt turbo
+scribepad lecture.m4a notes.txt turbo
 ```
-
+> Note this is just an example.
 ---
 
 ## 🛣️ Future Roadmap 
